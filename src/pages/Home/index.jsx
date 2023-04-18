@@ -11,9 +11,12 @@ export function Home() {
       </Brand>
       <Header />
       <Menu>
+        <li>
         <ButtonText title='Todos'/>
         <ButtonText title='React'/>
         <ButtonText title='NodeJs'/>
+        </li>
+       
       </Menu>
 
       <Search></Search>
