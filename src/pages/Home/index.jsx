@@ -12,11 +12,14 @@ export function Home() {
       <Header />
       <Menu>
         <li>
-        <ButtonText title='Todos'/>
-        <ButtonText title='React'/>
-        <ButtonText title='NodeJs'/>
+          <ButtonText title="Todos" isActive />
         </li>
-       
+        <li>
+          <ButtonText title="React" />
+        </li>
+        <li>
+          <ButtonText title="NodeJs" />
+        </li>
       </Menu>
 
       <Search></Search>
