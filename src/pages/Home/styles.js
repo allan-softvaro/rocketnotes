@@ -28,7 +28,7 @@ border-bottom-width: 1px;
 border-bottom-style: solid;
 border-bottom-color: ${({theme})=> theme.COLORS.BACKGROUND_700};
 
-background color: ${({theme})=> theme.COLORS.BACKGROUND_900};
+background-color: ${({theme})=> theme.COLORS.BACKGROUND_900};
 
 > h1{
     font-size: 24px;
@@ -39,7 +39,7 @@ background color: ${({theme})=> theme.COLORS.BACKGROUND_900};
 
 export const Menu = styled.ul`
 grid-area: menu;
-background color: ${({theme})=> theme.COLORS.BACKGROUND_900};
+background-color: ${({theme})=> theme.COLORS.BACKGROUND_900};
 
 padding-top: 64px;
 text-align: center;
@@ -59,5 +59,15 @@ grid-area: content;
 
 export const NewNote = styled.button`
 grid-area: newnote;
+background-color: ${({theme})=> theme.COLORS.ORANGE};
+border: none;
+
+display: flex;
+align-items: center;
+justify-content: center;
+
+svg{
+    margin-right: 8px;
+}
 
 `;
